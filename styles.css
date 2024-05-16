@@ -1,0 +1,82 @@
+.inventory img {
+    max-height: 150px;
+  }
+.inventory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.logo img{
+    max-height: 100px;
+}
+.recommendations img{
+    max-height: 150px;
+}
+.recommendations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #C98A4C;
+}
+p{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    text-align: center;
+}
+hr{
+    border: 1px solid black;
+}
+nav{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a:hover{
+    background-color: #C98A4C;
+    color: azure;
+    padding: .25rem;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #605348;
+    padding: 2rem;
+    background-color:#605348 ;
+    color: azure;
+    width: 10rem;
+}
+@media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1000px){
+        .inventory{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 12rem;
+        }
+        .inventory img {
+            max-height: 180px;
+          }
+          nav a:hover{
+            background-color: #C98A4C;
+            color: azure;
+            padding: .5rem;
+        }
+        h4{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 2px solid #605348;
+            padding: 2rem;
+            background-color:#605348 ;
+            color: azure;
+            width: 10rem;
+        }
+    }
+}
